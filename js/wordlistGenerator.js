@@ -1,6 +1,10 @@
 let wordList = [
-    'hello bangladesh bangla bangabandhu',
-    'i love you toli'
+    'hello hi bye bye',
+    'i love you toli',
+    'Thinking of you keeps me awake. Dreaming of you keeps me asleep. Being with you keeps me alive.',
+    'What we have once enjoyed we can never lose. All that we love deeply becomes a part of us.',
+    'Of all forms of caution, caution in love is perhaps the most fatal to true happiness.',
+    
 ]
 
 //random index
