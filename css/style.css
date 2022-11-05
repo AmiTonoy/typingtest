@@ -1,0 +1,55 @@
+@import url(./customize.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.topRow{
+    display: flex;
+    flex-direction: row;
+}
+.timer,.words,.wpm{
+    font-size: 4rem;
+    color: white;
+    width: 75%;
+    padding: 1rem;
+
+}
+textarea{
+    border: none;
+    /* background: var(--textareaBackground);
+     */
+     opacity: 0;
+    resize: none;
+    outline: none;
+    height: 7rem;
+    font-size: 2rem;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.automatic{
+    background-color: bisque    ;
+    width: 75%;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
